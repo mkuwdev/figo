@@ -1,6 +1,8 @@
 import '../styles/globals.css'
 import Head from 'next/head'
 
+import Layout from 'components/layout/Layout'; 
+
 function MyApp({ Component, pageProps }) {
   return (<>
     <Head>
@@ -8,7 +10,9 @@ function MyApp({ Component, pageProps }) {
       <meta name="description" content="Made with love by Figo 💘" />
       <link rel="icon" href="/mku.png" />
     </Head>
-    <Component {...pageProps} />
+    <Layout>
+      <Component {...pageProps} />
+    </Layout>
   </>)
 }
 
