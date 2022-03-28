@@ -46,20 +46,22 @@ const Header = () => {
     
     
     const links = [
-        { key: 1, href: '/', label: 'About' },
-        { key: 2, href: '/blogs', label: 'Blogs' },
-        { key: 3, href: '/projects', label: 'Projects' },
+        { key: "1", href: '/', label: 'About' },
+        { key: "2", href: '/blogs', label: 'Blogs' },
+        { key: "3", href: '/projects', label: 'Projects' },
         // { href: '/library', label: 'Library' },
     ];
 
     return (
       <>
-        {links.map(({ href, label }) => (
-            <NavItem
+        {links.map(({ href, label, key }) => (
+            <div key={key}>
+              <NavItem
                 url={href}
                 name={label}
                 current={href}
-            />
+              />
+            </div>  
         ))}
       </>
     )
@@ -88,7 +90,7 @@ const Header = () => {
             <div className="m-4 flex justify-between">
               <div className="flex space-between align-bottom items-center">
                 <div className="text-3xl font-bold text-sky-800 w-32 px-3 flex items-center cursor-pointer">
-                    <span class="link link-underline link-underline-black">
+                    <span className="link link-underline link-underline-black">
                       <TextTransition
                         text={ TEXTS[index % TEXTS.length] }
                         springConfig={ presets.gentle }

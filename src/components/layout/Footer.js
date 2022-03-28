@@ -28,7 +28,6 @@ const socials = [
 const Footer = () => {
   return (
     <footer className="px-10 mt-3">
-      
       <main className='layout flex flex-col items-center border-t'>
         <p className='mt-4 font-medium text-gray-600'>
           Reach out to me 😉
@@ -36,9 +35,9 @@ const Footer = () => {
         <div className='mt-2 flex space-x-4'>
           <div className='flex items-center justify-center'>
             {socials.map((social) => (
-              <div>
+              <div key={social.key}>
                 <button className='rounded-sm align-middle mx-2 text-gray-400 hover:text-sky-800 transition ease-in-out hover:scale-110'>
-                  <a href={social.href} target="_blank">
+                  <a href={social.href} target="_blank" rel="noreferrer">
                     <social.icon className='h-7 w-7 align-middle' />
                   </a>
                 </button>
