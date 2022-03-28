@@ -89,7 +89,7 @@ const Header = () => {
           <div className="absolute inset-y-0 right-0 flex items-center gap-5 pr-2 sm:static sm:inset-auto sm:pr-0 sm:ml-6">
             <div className="m-4 flex justify-between">
               <div className="flex space-between align-bottom items-center">
-                <div className="text-3xl font-bold text-sky-800 w-32 px-3 flex items-center cursor-pointer">
+                <div className="hidden sm:block text-3xl font-bold text-sky-800 w-32 px-3 flex items-center cursor-pointer">
                     <span className="link link-underline link-underline-black">
                       <TextTransition
                         text={ TEXTS[index % TEXTS.length] }
