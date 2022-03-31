@@ -47,8 +47,8 @@ const Header = () => {
     
     const links = [
         { key: "1", href: '/', label: 'About' },
-        { key: "2", href: '/blogs', label: 'Blogs' },
-        { key: "3", href: '/projects', label: 'Projects' },
+        { key: "2", href: '/projects', label: 'Projects' },
+        { key: "3", href: '/blogs', label: 'Blogs' },
         // { href: '/library', label: 'Library' },
     ];
 
