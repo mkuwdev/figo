@@ -1,6 +1,7 @@
 import * as React from 'react';
 import Accent from 'components/Accent';
 import FadeIn from 'react-fade-in';
+import Image from 'next/image'
 
 import { FiMail } from 'react-icons/fi';
 import { SiGithub, SiLinkedin, SiTwitter } from 'react-icons/si';
@@ -46,7 +47,7 @@ const about = () => {
             <div className="mt-5 text-lg">
               <p>Short introduction here</p>
             </div>
-            <button class="mt-5 bg-sky-800 hover:bg-sky-900 text-white font-bold py-2 px-4 rounded transition ease-in-out hover:scale-105">
+            <button className="mt-5 bg-sky-800 hover:bg-sky-900 text-white font-bold py-2 px-4 rounded transition ease-in-out hover:scale-105">
               Learn more about me
             </button>
             <div className='flex mt-3'>
@@ -72,7 +73,7 @@ const about = () => {
           </Accent>
           <ParentGrid className="mt-5">
             <GridFour>
-              <img className="w-max mx-auto" src="/eth.gif"/>
+              <Image className="w-max mx-auto" src="/eth.gif"/>
             </GridFour>
             <GridEight>
               <div>
