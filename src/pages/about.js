@@ -73,7 +73,7 @@ const about = () => {
           </Accent>
           <ParentGrid className="mt-5">
             <GridFour>
-              <Image className="w-max mx-auto" src="/eth.gif"/>
+              <img className="w-max mx-auto" src="/eth.gif"/>
             </GridFour>
             <GridEight>
               <div>
