@@ -6,7 +6,7 @@ import Layout from 'components/layout/Layout';
 function MyApp({ Component, pageProps }) {
   return (<>
     <Head>
-      <title>Alessandro Figo | mku.eth</title>
+      <title>Alessandro Figo</title>
       <meta name="description" content="Made with love by Figo 💘" />
       <link rel="icon" href="/f.png" />
     </Head>
