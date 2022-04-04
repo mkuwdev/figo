@@ -1,5 +1,6 @@
 import React from 'react'
 import FadeIn from 'react-fade-in';
+import Link from 'next/link'
 
 const projects = () => {
   return (
@@ -9,7 +10,7 @@ const projects = () => {
           Projects
         </div>
         <div className="text-xl">
-          page under construction! Stay tuned 👷‍♂️
+          page under construction! Stay tuned <Link href={'/about'}>👷‍♂️</Link>
         </div>
       </div>
     </FadeIn>
