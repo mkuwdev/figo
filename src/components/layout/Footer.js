@@ -30,7 +30,7 @@ const Footer = () => {
     <footer className="px-10 mt-3">
       <main className='layout flex flex-col items-center border-t'>
         <p className='mt-4 font-medium text-gray-600'>
-          Reach out to me 😉
+          Reach out to me 😊
         </p>
         <div className='mt-2 flex space-x-4'>
           <div className='flex items-center justify-center'>

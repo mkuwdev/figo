@@ -90,12 +90,14 @@ const Header = () => {
             <div className="m-4 flex justify-between">
               <div className="flex space-between align-bottom items-center">
                 <div className="text-3xl font-bold text-sky-800 w-32 px-3 flex items-center cursor-pointer">
+                  <Link href='/'>
                     <span className="hidden sm:block link link-underline link-underline-black">
-                      <TextTransition
-                        text={ TEXTS[index % TEXTS.length] }
-                        springConfig={ presets.gentle }
-                      />
+                        <TextTransition
+                          text={ TEXTS[index % TEXTS.length] }
+                          springConfig={ presets.gentle }
+                        />
                     </span>
+                  </Link>
                 </div>
               </div>
             </div>

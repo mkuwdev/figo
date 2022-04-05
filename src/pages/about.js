@@ -10,7 +10,7 @@ import { FiMail } from 'react-icons/fi';
 import { SiGithub, SiLinkedin, SiTwitter } from 'react-icons/si';
 import { IoArrowDownOutline } from 'react-icons/io5';
 
-import { ParentGrid, GridEight, GridSeven, GridFive, GridFour } from 'components/Grid';
+import { ParentGrid, GridTwelve, GridEight, GridSeven, GridFive, GridFour } from 'components/Grid';
 
 const socials = [
   {
@@ -98,15 +98,19 @@ const about = () => {
               </div>
             </div>
           </section>
-          <div id="intro" className="text-xl md:text-2xl font-bold mb-1">
-            About
-          </div>
-          {/* <Accent className="text-3xl md:text-4xl font-bold">
-            Alessandro Figo Saleh
-          </Accent> */}
-          <div className="text-3xl md:text-4xl font-bold text-sky-800">
-            Alessandro Figo Saleh
-          </div>
+          <ParentGrid>
+            <GridTwelve>
+              <div id="intro" className="text-xl md:text-2xl font-bold mb-1">
+                About
+              </div>
+              {/* <Accent className="text-3xl md:text-4xl font-bold">
+                Alessandro Figo Saleh
+              </Accent> */}
+              <div className="text-3xl md:text-4xl font-bold text-sky-800">
+                Alessandro Figo Saleh
+              </div>
+            </GridTwelve>
+          </ParentGrid>
           <ParentGrid className="mt-5">
             <GridFour>
               <img className="w-max mx-auto" src="/eth.gif"/>
@@ -117,22 +121,22 @@ const about = () => {
               </div>
             </GridEight>
           </ParentGrid>
-        </div>
-        <div className="my-10 mx-8 md:mx-16">
-          <div className="text-xl md:text-2xl font-bold mb-2">
-            Tech Stack
-          </div>
-          <p>Tech stack here</p>
-        </div>
-        <div className="my-10 mx-8 md:mx-16">
-          <div className="text-xl md:text-2xl font-bold mb-2">
-            Contact
-          </div>
-          <p>
-            I am always down for any kind of conversation topic with anyone!
-            Please always feel free to reach out to me for any questions you may have about me, web3, AI, or anything else really. All of my contacts are
-            down in the footer 👇
-          </p>
+          <ParentGrid>
+            <GridTwelve>
+              <div className="text-xl md:text-2xl font-bold mb-2">
+                Tech Stack
+              </div>
+              <p>Tech stack here</p>
+              <div className="text-xl md:text-2xl font-bold mb-2">
+                Contact
+              </div>
+              <p>
+                I am always down for any kind of conversation topic with anyone!
+                Please always feel free to reach out to me for any questions you may have about me, web3, AI, or anything else really. All of my contacts are
+                down in the footer 👇
+              </p>
+            </GridTwelve>
+          </ParentGrid>
         </div>
       </FadeIn>
     </main>

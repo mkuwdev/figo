@@ -10,6 +10,14 @@ export const ParentGrid = ({ children, className = '' }) => {
       )
 }
 
+export const GridTwelve = ({ children, className = ''}) => {
+  return (
+    <div className={`lg:col-span-12 md:col-span-12 col-span-12 mb-5 ${className}`}>
+      {children}
+    </div>
+  )
+}
+
 export const GridNine = ({ children, className = ''}) => {
   return (
     <div className={`lg:col-span-9 md:col-span-12 col-span-12 mb-5 ${className}`}>
