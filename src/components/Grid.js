@@ -42,6 +42,14 @@ export const GridSix = ({ children, className = '' }) => {
     )
 }
 
+export const GridFive = ({ children, className = '' }) => {
+  return (
+    <div className={`lg:col-span-5 md:col-span-12 col-span-12 ${className}`}>
+      {children}
+    </div>
+  )
+}
+
 export const GridFour = ({ children, className = '' }) => {
     return (
       <div className={`lg:col-span-4 md:col-span-12 col-span-12 ${className}`}>
