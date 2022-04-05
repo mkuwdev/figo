@@ -2,9 +2,11 @@ import * as React from 'react';
 import Accent from 'components/Accent';
 import FadeIn from 'react-fade-in';
 import Image from 'next/image'
+import { Link, animateScroll as scroll } from "react-scroll";
 
 import { FiMail } from 'react-icons/fi';
 import { SiGithub, SiLinkedin, SiTwitter } from 'react-icons/si';
+import { IoArrowDownOutline } from 'react-icons/io5';
 
 import { ParentGrid, GridEight, GridFour } from 'components/Grid';
 
@@ -50,22 +52,35 @@ const about = () => {
             <button className="mt-5 bg-sky-800 hover:bg-sky-900 text-white font-bold py-2 px-4 rounded transition ease-in-out hover:scale-105">
               Learn more about me
             </button>
-            <div className='flex mt-3'>
+            <div className='flex mt-3 mb-20'>
               {socials.map((social) => (
                 <div key={social.key}>
                   <button className='rounded-sm align-top mr-4 text-gray-600 hover:text-sky-800'>
-                    <div className="flex align-top">
-                      <a className="mr-1" href={social.href} target="_blank" rel="noreferrer">
+                    <a className="flex align-top" href={social.href} target="_blank" rel="noreferrer">
+                      <div className="mr-1">
                         <social.icon className='h-5 w-5 mt-0.5' />
-                      </a>
+                      </div>
                       <div>{social.username}</div>
-                    </div>
+                    </a>
                   </button>
                 </div>
               ))}
             </div>
+            <div className="flex items-center justify-center">
+              <div className="px-auto align-middle cursor-pointer hover:text-sky-800 transition ease-in-out hover:scale-110">
+                <Link 
+                  to='intro'
+                  spy={true}
+                  smooth={true}
+                  offset={-90}
+                  duration={500}
+                >
+                  <IoArrowDownOutline className='h-8 w-8 animate-bounce md:h-10 md:w-10 align-middle'/>
+                </Link>
+              </div>
+            </div>
           </section>
-          <div className="text-xl md:text-2xl font-bold mb-1">
+          <div id="intro" className="text-xl md:text-2xl font-bold mb-1">
             About
           </div>
           <Accent className="text-3xl md:text-4xl font-bold">
@@ -80,7 +95,6 @@ const about = () => {
                 <p>Intro text here</p>
               </div>
             </GridEight>
-            
           </ParentGrid>
         </div>
         <div className="my-10 mx-8 md:mx-16">
