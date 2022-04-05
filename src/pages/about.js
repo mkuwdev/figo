@@ -1,5 +1,6 @@
 import * as React from 'react';
 import Accent from 'components/Accent';
+import ParticleBackground from 'components/ParticleBackground';
 import FadeIn from 'react-fade-in';
 import Image from 'next/image'
 import { Link, animateScroll as scroll } from "react-scroll";
@@ -37,6 +38,7 @@ const about = () => {
       <FadeIn delay={120}>
         <div className="my-10 mx-8 md:mx-16">
           <section className="mt-20 min-h-screen">
+            <ParticleBackground/>
             <div className="text-2xl md:text-4xl font-bold mb-1">
               Hello there 👋
             </div>
