@@ -101,9 +101,12 @@ const about = () => {
           <div id="intro" className="text-xl md:text-2xl font-bold mb-1">
             About
           </div>
-          <Accent className="text-3xl md:text-4xl font-bold">
+          {/* <Accent className="text-3xl md:text-4xl font-bold">
             Alessandro Figo Saleh
-          </Accent>
+          </Accent> */}
+          <div className="text-3xl md:text-4xl font-bold text-sky-800">
+            Alessandro Figo Saleh
+          </div>
           <ParentGrid className="mt-5">
             <GridFour>
               <img className="w-max mx-auto" src="/eth.gif"/>

@@ -9,7 +9,7 @@ const blogs = () => {
           Blogs
         </div>
         <div className="text-xl">
-          page under construction! Stay tuned 👷‍♂️
+          No blogs yet!
         </div>
       </div>
     </FadeIn>
