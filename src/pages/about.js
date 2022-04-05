@@ -80,7 +80,7 @@ const about = () => {
                   ))}
                 </div>
               </GridSeven>
-              <GridFive className="hidden md:flex flex items-center justify-center">
+              <GridFive className="hidden lg:flex flex items-center justify-center">
                 <InfoCard/>
               </GridFive>
             </ParentGrid>
