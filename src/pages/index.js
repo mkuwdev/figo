@@ -38,10 +38,10 @@ const about = () => {
     <main>
       <FadeIn delay={120}>
         <div className="my-10 mx-8 md:mx-16">
-          <section className="mt-10 min-h-screen">
+          <section className="min-h-screen">
             {/* <ParticleBackground/> */}
             <ParentGrid>
-              <GridSeven className="mt-10 pt-5">
+              <GridSeven className="mt-8 pt-5">
                 <div className="text-2xl md:text-4xl font-bold mb-1">
                   Hello there <span className="wave">👋</span>
                 </div>
@@ -53,7 +53,8 @@ const about = () => {
                 </div>
                 <div className="mt-5 text-lg">
                   <p>
-                    Short Introduction here
+                    I am currently exploring innovations in web3 and AI,
+                    the two biggest tech transforming the future.
                   </p>
                 </div>
                 <Link 
