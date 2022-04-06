@@ -5,6 +5,7 @@ import InfoCard from 'components/InfoCard'
 import FadeIn from 'react-fade-in';
 import Image from 'next/image'
 import { Link, animateScroll as scroll } from "react-scroll";
+import Head from 'next/head'
 
 import { FiMail } from 'react-icons/fi';
 import { SiGithub, SiLinkedin, SiTwitter } from 'react-icons/si';
@@ -36,6 +37,11 @@ const socials = [
 const about = () => {
   return (
     <main>
+      <Head>
+        <title>Alessandro Figo | About</title>
+        <meta name="description" content="Made with love by Figo 💘" />
+        <link rel="icon" href="/f.png" />
+      </Head>
       <FadeIn delay={120}>
         <div className="my-10 mx-8 md:mx-16 font-mono">
           <section className="min-h-screen">
