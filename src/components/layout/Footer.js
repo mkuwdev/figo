@@ -27,7 +27,7 @@ const socials = [
 
 const Footer = () => {
   return (
-    <footer className="px-10 mt-3">
+    <footer className="px-10 mt-3 font-mono">
       <main className='layout flex flex-col items-center border-t'>
         <p className='mt-4 font-medium text-gray-600'>
           Reach out to me 😊

@@ -10,7 +10,7 @@ import { FiMail } from 'react-icons/fi';
 import { SiGithub, SiLinkedin, SiTwitter } from 'react-icons/si';
 import { IoArrowDownOutline } from 'react-icons/io5';
 
-import { ParentGrid, GridTwelve, GridEight, GridSeven, GridFive, GridFour } from 'components/Grid';
+import { ParentGrid, GridTwelve, GridEight, GridSeven, GridSix, GridFive, GridFour } from 'components/Grid';
 
 const socials = [
   {
@@ -37,7 +37,7 @@ const about = () => {
   return (
     <main>
       <FadeIn delay={120}>
-        <div className="my-10 mx-8 md:mx-16">
+        <div className="my-10 mx-8 md:mx-16 font-mono">
           <section className="min-h-screen">
             {/* <ParticleBackground/> */}
             <ParentGrid>
@@ -45,9 +45,9 @@ const about = () => {
                 <div className="text-2xl md:text-4xl font-bold mb-1">
                   Hello there <span className="wave">👋</span>
                 </div>
-                <div className="text-4xl md:text-6xl font-bold">
+                <div className="text-3xl md:text-5xl font-bold">
                   You can call me 
-                  <span className="ml-2 text-sky-800">
+                  <span className="ml-4 md:ml-6 text-sky-800">
                     Figo
                   </span>
                 </div>
@@ -115,26 +115,50 @@ const about = () => {
             </GridTwelve>
           </ParentGrid>
           <ParentGrid className="mt-5">
-            <GridFour>
+            <GridFour className="flex items-center justify-center">
               <img className="w-max mx-auto" src="/eth.gif"/>
             </GridFour>
             <GridEight>
               <div>
-                <p>Intro text here</p>
+                <p className="mb-3">
+                  Hey! My name is Figo. I am currently spending the semester at the University of Pennsylvania
+                  for an exchange program studying CS and economics. I am fascinated with a wide variety of
+                  topics including tech, microeconomics, game theory and philosophy. Just recently, I started
+                  dedicating most of my time catching up with the innovation happening in crypto and begin to 
+                  understand the value it will bring to the world. 🌎
+                </p>
+                <p>
+                  These days in my free time, I try to increasingly be engaged with the web3 space by studying 
+                  web3 development, participating in hackathons, being involved in DAOs, and catch up with
+                  the bunch of things happening on crypto twitter. Prior to web3, I have always enjoyed building
+                  front-ends and enjoy experimenting with new web development technologies. As for my university
+                  studies, I focus on taking courses related with ML/AI and big data processing.
+                </p>
               </div>
             </GridEight>
           </ParentGrid>
-          <ParentGrid>
+
+          {/* <ParentGrid className="mb-5">
             <GridTwelve>
               <div className="text-xl md:text-2xl font-bold mb-2">
-                Tech Stack
+                Favorite Tech Stack
               </div>
-              <p>Tech stack here</p>
-              <div className="text-xl md:text-2xl font-bold mt-5 mb-2">
+              <div className="text-lg md:text-xl mb-2">
+                <i>Web3 Development</i>
+              </div>
+              <div className="text-lg md:text-xl">
+                <i>AI/Big Data</i>
+              </div>
+            </GridTwelve>
+          </ParentGrid> */}
+
+          <ParentGrid>
+            <GridTwelve>
+              <div className="text-xl md:text-2xl font-mono font-bold mb-2">
                 Contact
               </div>
-              <p>
-                I am always down for any kind of conversation topic with anyone! Please always feel free to
+              <p className="font-mono">
+                Always down for any kind of conversation with anyone! Please always feel free to
                 reach out to me for any questions you may have about me, web3, AI, or anything else really.
                 All of my contacts are down in the footer 👇
               </p>
