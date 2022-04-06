@@ -3,7 +3,7 @@ import React from 'react'
 const InfoCard = () => {
   return (
     <div className="max-w-xs rounded-lg overflow-hidden shadow-lg">
-        <img className="w-full" src="/nyan.gif" alt="Nyan Cat"/>
+        <img className="w-full" src="/pond.gif" alt="Nyan Cat"/>
         <div className="px-6 py-4">
             <div className="font-bold text-xl mb-2 font-mono">mku.eth</div>
             <p className="text-gray-700 text-base font-mono">
