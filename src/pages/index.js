@@ -135,9 +135,9 @@ const about = () => {
                 </p>
                 <p>
                   These days in my free time, I try to increasingly be engaged with the web3 space by studying 
-                  web3 development, participating in hackathons, being involved in DAOs, and catch up with
+                  web3 development, participating in hackathons, being involved in DAOs, and catching up with
                   the bunch of things happening on crypto twitter. Prior to web3, I have always enjoyed building
-                  front-ends and enjoy experimenting with new web development technologies. As for my university
+                  front-ends and experimenting with new web development technologies. As for my university
                   studies, I focus on taking courses related with ML/AI and big data processing.
                 </p>
               </div>
