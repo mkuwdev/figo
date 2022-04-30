@@ -57,7 +57,7 @@ const about = () => {
                     Figo
                   </span>
                 </div>
-                <div className="mt-5 text-lg">
+                <div className="mt-5 text-lg font-inter">
                   <p>
                     I am currently exploring innovations in web3 and AI,
                     the two biggest tech transforming the future.
@@ -70,14 +70,14 @@ const about = () => {
                   offset={-90}
                   duration={500}
                 >
-                  <button className="mt-5 bg-sky-800 hover:bg-sky-900 text-white font-bold py-2 px-4 rounded transition ease-in-out hover:scale-105">
+                  <button className="font-inter mt-5 bg-sky-800 hover:bg-sky-900 text-white font-bold py-2 px-4 rounded transition ease-in-out hover:scale-105">
                     Learn more about me
                   </button>
                 </Link>
                 <div className='flex mt-3 mb-20'>
                   {socials.map((social) => (
                     <div key={social.key}>
-                      <button className='rounded-sm align-top mr-4 text-gray-600 hover:text-sky-800'>
+                      <button className='font-inter rounded-sm align-top mr-4 text-gray-600 hover:text-sky-800'>
                         <a className="flex align-top" href={social.href} target="_blank" rel="noreferrer">
                           <div className="mr-1">
                             <social.icon className='h-5 w-5 mt-0.5' />
@@ -125,7 +125,7 @@ const about = () => {
               <img className="w-max mx-auto" src="/eth.gif"/>
             </GridFour>
             <GridEight>
-              <div>
+              <div className="font-inter">
                 <p className="mb-3">
                   Hey! My name is Figo. I am currently spending the semester at the University of Pennsylvania
                   for an exchange program studying CS and economics. I am fascinated with a wide variety of
@@ -163,7 +163,7 @@ const about = () => {
               <div className="text-xl md:text-2xl font-mono font-bold mb-2">
                 Contact
               </div>
-              <p className="font-mono">
+              <p className="font-inter">
                 Always down for any kind of conversation with anyone! Please always feel free to
                 reach out to me for any questions you may have about me, web3, AI, or anything else really.
                 All of my contacts are down in the footer 👇

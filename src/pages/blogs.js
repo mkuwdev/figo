@@ -14,7 +14,7 @@ const blogs = () => {
         <div className="text-3xl font-bold mb-5">
           Blogs
         </div>
-        <div className="text-xl">
+        <div className="text-xl font-inter">
           No blogs yet!
         </div>
       </div>

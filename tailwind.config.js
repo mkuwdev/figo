@@ -9,7 +9,12 @@ module.exports = {
     // fontFamily: {
     //   sans: ['"Inter"', 'sans-serif']
     // },
-    extend: {},
+    extend: {
+      fontFamily: {
+        'inter': ['Inter', 'sans-serif'],
+        'poppins': ['Poppins', 'sans-serif'] 
+      },
+    },
   },
   plugins: [],
   mode: 'jit',

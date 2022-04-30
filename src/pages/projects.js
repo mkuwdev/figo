@@ -15,7 +15,7 @@ const projects = () => {
         <div className="text-3xl font-bold mb-5">
           Projects
         </div>
-        <div className="text-xl">
+        <div className="text-xl font-inter">
           page under construction! Stay tuned <Link href={'/about'}>👷‍♂️</Link>
         </div>
       </div>
