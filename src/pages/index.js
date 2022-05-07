@@ -38,7 +38,7 @@ const about = () => {
   return (
     <main>
       <Head>
-        <title>Alessandro Figo | About</title>
+        <title>Figo | About</title>
         <meta name="description" content="Made with love by Figo 💘" />
         <link rel="icon" href="/f.png" />
       </Head>
@@ -116,7 +116,7 @@ const about = () => {
                 Alessandro Figo Saleh
               </Accent> */}
               <div className="text-3xl md:text-4xl font-bold text-sky-800">
-                Alessandro Figo Saleh
+                Me
               </div>
             </GridTwelve>
           </ParentGrid>

@@ -7,7 +7,7 @@ const projects = () => {
   return (
     <FadeIn>
       <Head>
-        <title>Alessandro Figo | Projects</title>
+        <title>Figo | Projects</title>
         <meta name="description" content="Made with love by Figo 💘" />
         <link rel="icon" href="/f.png" />
       </Head>

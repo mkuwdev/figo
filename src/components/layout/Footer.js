@@ -46,7 +46,7 @@ const Footer = () => {
           </div>
         </div>
         <p className='mt-5 mb-8 text-sm text-gray-600 items-center'>
-          Made with 💘 by Alessandro Figo 2022
+          Made with 💘 by Figo 2022
         </p>
       </main>
     </footer>
