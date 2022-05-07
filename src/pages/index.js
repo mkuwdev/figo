@@ -110,14 +110,14 @@ const about = () => {
           <ParentGrid>
             <GridTwelve>
               <div id="intro" className="text-xl md:text-2xl font-bold mb-1">
-                About
+                About Me
               </div>
               {/* <Accent className="text-3xl md:text-4xl font-bold">
                 Alessandro Figo Saleh
               </Accent> */}
-              <div className="text-3xl md:text-4xl font-bold text-sky-800">
-                Me
-              </div>
+              {/* <div className="text-3xl md:text-4xl font-bold text-sky-800">
+                
+              </div> */}
             </GridTwelve>
           </ParentGrid>
           <ParentGrid className="mt-5">
