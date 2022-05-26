@@ -68,7 +68,7 @@ const Header = () => {
   }
 
   return (
-    <nav className="sticky font-mono top-0 z-10 w-full bg-white border-b drop-shadow-sm border-t-4 border-t-cyan-500 mb-3">
+    <nav className="sticky font-mono top-0 z-10 w-full bg-white border-b drop-shadow-sm border-t-4 border-t-sky-800 mb-3">
       <div className="container max-w-screen-xl px-5 mx-auto">
         <div className="relative flex items-center justify-between h-14 sm:h-16">
           <div className="flex items-center justify-start flex-1">

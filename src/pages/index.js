@@ -59,7 +59,7 @@ const about = () => {
                 </div>
                 <div className="mt-5 text-lg font-inter">
                   <p>
-                    I am currently exploring innovations in web3 and AI,
+                    I explore innovations in web3 and AI,
                     the two biggest tech transforming the future.
                   </p>
                 </div>
