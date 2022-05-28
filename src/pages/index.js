@@ -127,9 +127,8 @@ const about = () => {
             <GridEight>
               <div className="font-inter">
                 <p className="mb-3">
-                  Hey! My name is Figo. I am currently spending the semester at the University of Pennsylvania
-                  for an exchange program studying CS and economics. I am fascinated with a wide variety of
-                  topics including tech, microeconomics, game theory and philosophy. Just recently, I started
+                  Hey! My name is Figo. I am an undergrad senior studying CS and economics. I am fascinated with a 
+                  wide variety of topics including tech, microeconomics, and game theory. Last year, I started
                   dedicating most of my time catching up with the innovation happening in crypto and begin to 
                   understand the value it will bring to the world. 🌎
                 </p>
@@ -137,8 +136,7 @@ const about = () => {
                   These days in my free time, I try to increasingly be engaged with the web3 space by studying 
                   web3 development, participating in hackathons, being involved in DAOs, and catching up with
                   the bunch of things happening on crypto twitter. Prior to web3, I have always enjoyed building
-                  front-ends and experimenting with new web development technologies. As for my university
-                  studies, I focus on taking courses related with ML/AI and big data processing.
+                  front-ends and experimenting with new web development technologies.
                 </p>
               </div>
             </GridEight>
