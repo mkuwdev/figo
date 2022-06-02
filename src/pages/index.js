@@ -71,7 +71,7 @@ const about = () => {
                   duration={500}
                 >
                   <button className="font-inter mt-5 bg-sky-800 hover:bg-sky-900 text-white font-bold py-2 px-4 rounded transition ease-in-out hover:scale-105">
-                    Learn more about me
+                    Learn more about Figo
                   </button>
                 </Link>
                 <div className='flex mt-3 mb-20'>
